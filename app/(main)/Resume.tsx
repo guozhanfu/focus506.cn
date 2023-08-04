@@ -16,10 +16,10 @@ type Resume = {
 }
 const resume: Resume[] = [
   {
-    company: '深圳市佐玩信息技术有限公司',
-    title: '创始人 CEO',
+    company: '深圳市枫叶在线教育',
+    title: 'iOS开发工程师',
     logo: zolplayLogo,
-    start: '2021',
+    start: '2022',
     end: {
       label: '至今',
       dateTime: new Date().getFullYear(),
@@ -40,11 +40,11 @@ const resume: Resume[] = [
     end: '2018',
   },
   {
-    company: 'Abletive',
-    title: '创始人',
+    company: '热网科技',
+    title: 'iOS开发工程师',
     logo: abletiveLogo,
-    start: '2014',
-    end: '2016',
+    start: '2021',
+    end: '2018',
   },
 ]
 
