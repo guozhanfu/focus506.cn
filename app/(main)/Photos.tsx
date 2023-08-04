@@ -5,7 +5,7 @@ import Image from 'next/image'
 import React from 'react'
 
 import image5 from '~/assets/highlights/highlight-cali.jpeg'
-import image1 from '~/assets/highlights/highlight-3d.png'
+import image1 from '~/assets/highlights/highlight-cat.jpeg'
 import image3 from '~/assets/highlights/highlight-controller.jpg'
 import image6 from '~/assets/highlights/highlight-push.png'
 import image2 from '~/assets/highlights/highlight-workshop.jpg'
