@@ -16,35 +16,28 @@ type Resume = {
 }
 const resume: Resume[] = [
   {
-    company: '深圳市佐玩信息技术有限公司',
-    title: '创始人 CEO',
+    company: '深圳市枫叶在线教育',
+    title: 'iOS开发工程师',
     logo: zolplayLogo,
-    start: '2021',
+    start: '2022',
     end: {
       label: '至今',
       dateTime: new Date().getFullYear(),
     },
   },
   {
-    company: 'very very spaceship',
-    title: '软件工程师',
+    company: '深圳',
+    title: 'iOS开发工程师',
     logo: vvsLogo,
-    start: '2018',
-    end: '2020',
+    start: '2022',
+    end: '2021',
   },
   {
-    company: '8ninths Inc.',
-    title: 'AR & 全栈工程师',
-    logo: eightNinthsLogo,
-    start: '2017',
-    end: '2018',
-  },
-  {
-    company: 'Abletive',
-    title: '创始人',
+    company: '热网科技',
+    title: 'iOS开发工程师',
     logo: abletiveLogo,
-    start: '2014',
-    end: '2016',
+    start: '2021',
+    end: '2018',
   },
 ]
 
@@ -70,14 +63,6 @@ export function Resume() {
       <ol className="mt-6 space-y-4">
         {resume.map((role, roleIndex) => (
           <li key={roleIndex} className="flex gap-4">
-            <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
-              <Image
-                src={role.logo}
-                alt={role.company}
-                className="h-8 w-8 rounded-full"
-                unoptimized
-              />
-            </div>
             <dl className="flex flex-auto flex-wrap gap-x-2">
               <dt className="sr-only">公司</dt>
               <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
